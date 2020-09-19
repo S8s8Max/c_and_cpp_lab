@@ -10,6 +10,20 @@
 		5AF84B2624F7A2370060951E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AF84B2524F7A2370060951E /* main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		5AF84B3224F81BE60060951E /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.llvm.clang.1_0;
+			fileType = sourcecode.c;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# <com.apple.compilers.gcc>\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5AF84B2024F7A2370060951E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,6 +39,9 @@
 /* Begin PBXFileReference section */
 		5AF84B2224F7A2370060951E /* play_ground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = play_ground; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF84B2524F7A2370060951E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5AF84B2C24F80CDC0060951E /* all.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = all.h; sourceTree = "<group>"; };
+		5AF84B2D24F80DB20060951E /* commands.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = commands.txt; sourceTree = "<group>"; };
+		5AF84B2E24F815FD0060951E /* all.h.gch */ = {isa = PBXFileReference; lastKnownFileType = file; path = all.h.gch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +74,10 @@
 		5AF84B2424F7A2370060951E /* play_ground */ = {
 			isa = PBXGroup;
 			children = (
+				5AF84B2E24F815FD0060951E /* all.h.gch */,
+				5AF84B2C24F80CDC0060951E /* all.h */,
 				5AF84B2524F7A2370060951E /* main.cpp */,
+				5AF84B2D24F80DB20060951E /* commands.txt */,
 			);
 			path = play_ground;
 			sourceTree = "<group>";
@@ -74,6 +94,7 @@
 				5AF84B2024F7A2370060951E /* CopyFiles */,
 			);
 			buildRules = (
+				5AF84B3224F81BE60060951E /* PBXBuildRule */,
 			);
 			dependencies = (
 			);

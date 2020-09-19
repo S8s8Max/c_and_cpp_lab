@@ -1,0 +1,57 @@
+GCC : C++ Compiler Commands
+
+
+
+
+### Basic command
+
+    $ g++ [options] -o [output file name] [source file name]
+
+
+
+### Specify more than one files
+
+    $ g++ -o abc a.cpp b.cpp c.cpp
+
+
+
+### Compiler Options
+
+    -std                : specifier of the C++ standards
+    -Wall               : unable to show almost of all warnigs which compilers get
+    --pedantic-errors   : make a coder obey the strict rule of the standard of C++
+
+    $ g++ -std=c++17 -Wall --pedantic-errors -o [file name] [source name]
+
+
+
+### Show a manual, file content
+
+    $ man gcc
+
+    $ cat sample.cpp
+
+
+
+### Include
+
+    $ g++ -include all.h -o program man.cpp
+
+
+
+### Time
+
+    time                : measure the excution time
+
+    $ time g++ -std=c++17 -Wall --pedantic-errors -include all.h -o pragram main.cpp
+
+
+
+### Precompile header
+
+    -x c++-header       : generate a precompiled header file (*.gch)
+
+    $ g++ -std=c++17 -Wall --pedantic-errors -x c++-header -o all.h.gch all.h
+
+
+
